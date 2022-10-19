@@ -1,7 +1,7 @@
-import { ResponseData } from "../@types/index";
+import { Milestone, ResponseData } from "../@types/Github";
 import { getOctokitClient } from "../lib/octoClient";
 
-export async function pullsInMilestone(milestoneNumber: number): Promise<Date> {
+export async function pullsInMilestone(milestoneNumber: number): Promise<Milestone | null> {
   const octo = getOctokitClient();
 
   return octo.graphql<ResponseData>(
@@ -22,6 +22,7 @@ export async function pullsInMilestone(milestoneNumber: number): Promise<Date> {
                 title
                 url
                 createdAt
+                mergedAt
                 timelineItems(
                   last: 100
                   itemTypes: [
@@ -127,5 +128,5 @@ export async function pullsInMilestone(milestoneNumber: number): Promise<Date> {
       }
     `,
     { milestoneNumber },
-  ).then(((response) => response.repository.milestone.closedAt || null));
+  ).then(((response) => response.repository.milestone || null));
 }

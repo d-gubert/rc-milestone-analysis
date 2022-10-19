@@ -1,4 +1,4 @@
-a = {
+module.exports = {
   title: '5.2.0',
   state: 'CLOSED',
   createdAt: '2022-08-16T11:48:43Z',
@@ -13,6 +13,7 @@ a = {
         title: '[IMPROVE] OTR Message',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/24297',
         createdAt: '2022-01-26T13:24:43Z',
+        mergedAt: '2022-09-06T19:09:56Z',
         timelineItems: {
           totalCount: 11,
           nodes: [
@@ -36,7 +37,7 @@ a = {
                 __typename: 'Team',
                 name: 'chat-engine',
                 url: 'https://github.com/orgs/RocketChat/teams/chat-engine'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -49,7 +50,7 @@ a = {
                 __typename: 'Team',
                 name: 'Frontend',
                 url: 'https://github.com/orgs/RocketChat/teams/frontend'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -64,7 +65,7 @@ a = {
               __typename: 'LabeledEvent',
               createdAt: '2022-06-16T19:18:58Z',
               label: { name: 'stat: needs QA' },
-              actor: {},
+              actor: {}
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -77,7 +78,7 @@ a = {
                 __typename: 'User',
                 name: 'Tasso Evangelista',
                 url: 'https://github.com/tassoevan'
-              },
+              }
             },
             {
               __typename: 'UnlabeledEvent',
@@ -86,7 +87,7 @@ a = {
               actor: {
                 name: 'Levy Costa',
                 url: 'https://github.com/LevyCosta'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -95,7 +96,7 @@ a = {
               actor: {
                 name: 'Levy Costa',
                 url: 'https://github.com/LevyCosta'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -104,7 +105,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'MilestonedEvent',
@@ -119,15 +120,16 @@ a = {
                 url: 'https://github.com/tassoevan'
               },
               state: 'APPROVED'
-            },
-          ],
-        },
+            }
+          ]
+        }
       },
       {
         number: 26130,
         title: "[IMPROVE] System messages' consistency",
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/26130',
         createdAt: '2022-07-05T14:14:13Z',
+        mergedAt: '2022-09-06T18:12:04Z',
         timelineItems: {
           totalCount: 20,
           nodes: [
@@ -138,7 +140,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'MilestonedEvent',
@@ -152,7 +154,7 @@ a = {
               actor: {
                 name: 'Alvaro Mello',
                 url: 'https://github.com/alvaropmello'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -174,7 +176,7 @@ a = {
                 __typename: 'Team',
                 name: 'translation',
                 url: 'https://github.com/orgs/RocketChat/teams/translation'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -196,7 +198,7 @@ a = {
                 __typename: 'Team',
                 name: 'Frontend',
                 url: 'https://github.com/orgs/RocketChat/teams/frontend'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -209,7 +211,7 @@ a = {
                 __typename: 'Team',
                 name: 'Omnichannel',
                 url: 'https://github.com/orgs/RocketChat/teams/omnichannel'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -222,7 +224,7 @@ a = {
                 __typename: 'User',
                 name: 'Diego Sampaio',
                 url: 'https://github.com/sampaiodiego'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -260,7 +262,7 @@ a = {
               actor: {
                 name: 'Levy Costa',
                 url: 'https://github.com/LevyCosta'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -269,7 +271,7 @@ a = {
               actor: {
                 name: 'Levy Costa',
                 url: 'https://github.com/LevyCosta'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -278,7 +280,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -291,7 +293,7 @@ a = {
                 __typename: 'User',
                 name: null,
                 url: 'https://github.com/gabriellsh'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -312,15 +314,16 @@ a = {
               __typename: 'MilestonedEvent',
               createdAt: '2022-09-21T21:21:22Z',
               milestoneTitle: '5.2.0'
-            },
-          ],
-        },
+            }
+          ]
+        }
       },
       {
         number: 26514,
         title: '[NEW] Sections layout and featured apps for marketplace',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/26514',
         createdAt: '2022-08-08T22:21:52Z',
+        mergedAt: '2022-09-09T19:39:28Z',
         timelineItems: {
           totalCount: 45,
           nodes: [
@@ -331,7 +334,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -348,7 +351,7 @@ a = {
               actor: {
                 name: 'Henrique Guimarães Ribeiro',
                 url: 'https://github.com/rique223'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -361,7 +364,7 @@ a = {
                 __typename: 'Team',
                 name: 'translation',
                 url: 'https://github.com/orgs/RocketChat/teams/translation'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -374,7 +377,7 @@ a = {
                 __typename: 'Team',
                 name: 'Apps',
                 url: 'https://github.com/orgs/RocketChat/teams/apps'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -387,7 +390,7 @@ a = {
                 __typename: 'Team',
                 name: 'Frontend',
                 url: 'https://github.com/orgs/RocketChat/teams/frontend'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -400,7 +403,7 @@ a = {
                 __typename: 'Team',
                 name: 'chat-engine',
                 url: 'https://github.com/orgs/RocketChat/teams/chat-engine'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -422,7 +425,7 @@ a = {
                 __typename: 'User',
                 name: 'Júlia Jaeger Foresti',
                 url: 'https://github.com/juliajforesti'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -440,7 +443,7 @@ a = {
               actor: {
                 name: 'Henrique Guimarães Ribeiro',
                 url: 'https://github.com/rique223'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -453,7 +456,7 @@ a = {
                 __typename: 'User',
                 name: 'Júlia Jaeger Foresti',
                 url: 'https://github.com/juliajforesti'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -466,7 +469,7 @@ a = {
                 __typename: 'User',
                 name: 'Douglas Gubert',
                 url: 'https://github.com/d-gubert'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -479,7 +482,7 @@ a = {
                 __typename: 'User',
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'UnlabeledEvent',
@@ -488,7 +491,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -497,7 +500,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -519,7 +522,7 @@ a = {
                 __typename: 'User',
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -541,7 +544,7 @@ a = {
                 __typename: 'User',
                 name: 'Matheus Lucca do Carmo',
                 url: 'https://github.com/matheuslc'
-              },
+              }
             },
             {
               __typename: 'MilestonedEvent',
@@ -577,7 +580,7 @@ a = {
                 __typename: 'User',
                 name: 'Bradley Hilton',
                 url: 'https://github.com/graywolf336'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -599,7 +602,7 @@ a = {
                 __typename: 'Team',
                 name: 'chat-engine',
                 url: 'https://github.com/orgs/RocketChat/teams/chat-engine'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -621,7 +624,7 @@ a = {
                 __typename: 'User',
                 name: 'Júlia Jaeger Foresti',
                 url: 'https://github.com/juliajforesti'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -630,7 +633,7 @@ a = {
               actor: {
                 name: 'Gabriel Casals',
                 url: 'https://github.com/casalsgh'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -643,7 +646,7 @@ a = {
                 __typename: 'User',
                 name: 'Douglas Gubert',
                 url: 'https://github.com/d-gubert'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -656,7 +659,7 @@ a = {
                 __typename: 'User',
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -678,7 +681,7 @@ a = {
                 __typename: 'User',
                 name: 'Júlia Jaeger Foresti',
                 url: 'https://github.com/juliajforesti'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -691,7 +694,7 @@ a = {
                 __typename: 'Team',
                 name: 'Frontend',
                 url: 'https://github.com/orgs/RocketChat/teams/frontend'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -704,7 +707,7 @@ a = {
                 __typename: 'Team',
                 name: 'Apps',
                 url: 'https://github.com/orgs/RocketChat/teams/apps'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -717,7 +720,7 @@ a = {
                 __typename: 'Team',
                 name: 'chat-engine',
                 url: 'https://github.com/orgs/RocketChat/teams/chat-engine'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -757,7 +760,7 @@ a = {
                 __typename: 'User',
                 name: 'Pierre Lehnen',
                 url: 'https://github.com/pierre-lehnen-rc'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -770,7 +773,7 @@ a = {
                 __typename: 'User',
                 name: 'Douglas Gubert',
                 url: 'https://github.com/d-gubert'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -783,7 +786,7 @@ a = {
                 __typename: 'User',
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -811,15 +814,16 @@ a = {
                 url: 'https://github.com/d-gubert'
               },
               state: 'APPROVED'
-            },
-          ],
-        },
+            }
+          ]
+        }
       },
       {
         number: 26548,
         title: '[IMPROVE] VideoConference Messages UI',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/26548',
         createdAt: '2022-08-11T20:57:50Z',
+        mergedAt: '2022-09-22T17:46:40Z',
         timelineItems: {
           totalCount: 11,
           nodes: [
@@ -830,7 +834,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -843,7 +847,7 @@ a = {
                 __typename: 'Team',
                 name: 'Frontend',
                 url: 'https://github.com/orgs/RocketChat/teams/frontend'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -856,7 +860,7 @@ a = {
                 __typename: 'Team',
                 name: 'chat-engine',
                 url: 'https://github.com/orgs/RocketChat/teams/chat-engine'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -897,7 +901,7 @@ a = {
               actor: {
                 name: 'Alvaro Mello',
                 url: 'https://github.com/alvaropmello'
-              },
+              }
             },
             {
               __typename: 'UnlabeledEvent',
@@ -906,7 +910,7 @@ a = {
               actor: {
                 name: 'Alvaro Mello',
                 url: 'https://github.com/alvaropmello'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -915,7 +919,7 @@ a = {
               actor: {
                 name: 'Alvaro Mello',
                 url: 'https://github.com/alvaropmello'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -924,16 +928,17 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
-            },
-          ],
-        },
+              }
+            }
+          ]
+        }
       },
       {
         number: 26601,
         title: '[FIX] Check admin setting for whether to display roles or not',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/26601',
         createdAt: '2022-08-17T11:10:08Z',
+        mergedAt: '2022-09-16T00:53:30Z',
         timelineItems: {
           totalCount: 7,
           nodes: [
@@ -948,7 +953,7 @@ a = {
                 __typename: 'Team',
                 name: 'Frontend',
                 url: 'https://github.com/orgs/RocketChat/teams/frontend'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -957,7 +962,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'MilestonedEvent',
@@ -980,7 +985,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'UnlabeledEvent',
@@ -989,7 +994,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -998,16 +1003,17 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
-            },
-          ],
-        },
+              }
+            }
+          ]
+        }
       },
       {
         number: 26669,
         title: '[FIX] Unable to send native video recording to Whatsapp',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/26669',
         createdAt: '2022-08-24T11:01:53Z',
+        mergedAt: '2022-09-15T04:52:28Z',
         timelineItems: {
           totalCount: 10,
           nodes: [
@@ -1018,7 +1024,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -1031,7 +1037,7 @@ a = {
                 __typename: 'Team',
                 name: 'Omnichannel',
                 url: 'https://github.com/orgs/RocketChat/teams/omnichannel'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -1049,7 +1055,7 @@ a = {
               actor: {
                 name: 'Murtaza Patrawala',
                 url: 'https://github.com/murtaza98'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -1062,7 +1068,7 @@ a = {
                 __typename: 'User',
                 name: 'Kevin Aleman',
                 url: 'https://github.com/KevLehman'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -1071,7 +1077,7 @@ a = {
               actor: {
                 name: 'Murtaza Patrawala',
                 url: 'https://github.com/murtaza98'
-              },
+              }
             },
             {
               __typename: 'UnlabeledEvent',
@@ -1080,7 +1086,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -1089,7 +1095,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -1104,15 +1110,16 @@ a = {
               __typename: 'MilestonedEvent',
               createdAt: '2022-09-14T13:59:24Z',
               milestoneTitle: '5.2.0'
-            },
-          ],
-        },
+            }
+          ]
+        }
       },
       {
         number: 26673,
         title: '[IMPROVE] Allow delete attachment description on message edit',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/26673',
         createdAt: '2022-08-24T18:36:36Z',
+        mergedAt: '2022-09-06T20:11:42Z',
         timelineItems: {
           totalCount: 12,
           nodes: [
@@ -1127,7 +1134,7 @@ a = {
                 __typename: 'Team',
                 name: 'Frontend',
                 url: 'https://github.com/orgs/RocketChat/teams/frontend'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -1136,7 +1143,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'MilestonedEvent',
@@ -1159,7 +1166,7 @@ a = {
                 __typename: 'Team',
                 name: 'chat-engine',
                 url: 'https://github.com/orgs/RocketChat/teams/chat-engine'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -1183,7 +1190,7 @@ a = {
               __typename: 'LabeledEvent',
               createdAt: '2022-09-06T18:24:59Z',
               label: { name: 'stat: QA tested' },
-              actor: { name: null, url: 'https://github.com/gabriellsh' },
+              actor: { name: null, url: 'https://github.com/gabriellsh' }
             },
             {
               __typename: 'UnlabeledEvent',
@@ -1192,7 +1199,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -1201,7 +1208,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'MilestonedEvent',
@@ -1215,16 +1222,17 @@ a = {
               actor: {
                 name: 'Alvaro Mello',
                 url: 'https://github.com/alvaropmello'
-              },
-            },
-          ],
-        },
+              }
+            }
+          ]
+        }
       },
       {
         number: 26674,
         title: '[NEW] Get moderators, owners and leaders from room scope via apps-engine',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/26674',
         createdAt: '2022-08-24T19:32:26Z',
+        mergedAt: '2022-09-21T20:22:48Z',
         timelineItems: {
           totalCount: 8,
           nodes: [
@@ -1239,7 +1247,7 @@ a = {
                 __typename: 'Team',
                 name: 'Apps',
                 url: 'https://github.com/orgs/RocketChat/teams/apps'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -1248,7 +1256,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -1280,7 +1288,7 @@ a = {
               actor: {
                 name: 'Douglas Gubert',
                 url: 'https://github.com/d-gubert'
-              },
+              }
             },
             {
               __typename: 'UnlabeledEvent',
@@ -1289,7 +1297,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -1298,16 +1306,17 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
-            },
-          ],
-        },
+              }
+            }
+          ]
+        }
       },
       {
         number: 26685,
         title: '[FIX] Old rooms without the associated unit will not be displayed on the current chats',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/26685',
         createdAt: '2022-08-25T15:38:23Z',
+        mergedAt: '2022-09-22T20:40:52Z',
         timelineItems: {
           totalCount: 27,
           nodes: [
@@ -1318,7 +1327,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'ConvertToDraftEvent',
@@ -1326,7 +1335,7 @@ a = {
               actor: {
                 name: 'Murtaza Patrawala',
                 url: 'https://github.com/murtaza98'
-              },
+              }
             },
             {
               __typename: 'ReadyForReviewEvent',
@@ -1334,7 +1343,7 @@ a = {
               actor: {
                 name: 'Murtaza Patrawala',
                 url: 'https://github.com/murtaza98'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -1347,7 +1356,7 @@ a = {
                 __typename: 'Team',
                 name: 'Omnichannel',
                 url: 'https://github.com/orgs/RocketChat/teams/omnichannel'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -1369,7 +1378,7 @@ a = {
                 __typename: 'User',
                 name: 'Kevin Aleman',
                 url: 'https://github.com/KevLehman'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -1391,7 +1400,7 @@ a = {
                 __typename: 'Team',
                 name: 'chat-engine',
                 url: 'https://github.com/orgs/RocketChat/teams/chat-engine'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -1404,7 +1413,7 @@ a = {
                 __typename: 'User',
                 name: 'Kevin Aleman',
                 url: 'https://github.com/KevLehman'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -1413,7 +1422,7 @@ a = {
               actor: {
                 name: 'Murtaza Patrawala',
                 url: 'https://github.com/murtaza98'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -1435,7 +1444,7 @@ a = {
                 __typename: 'User',
                 name: 'Kevin Aleman',
                 url: 'https://github.com/KevLehman'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -1494,7 +1503,7 @@ a = {
               actor: {
                 name: 'Murtaza Patrawala',
                 url: 'https://github.com/murtaza98'
-              },
+              }
             },
             {
               __typename: 'UnlabeledEvent',
@@ -1503,7 +1512,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -1512,7 +1521,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -1525,7 +1534,7 @@ a = {
                 __typename: 'User',
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -1538,7 +1547,7 @@ a = {
                 __typename: 'User',
                 name: 'Kevin Aleman',
                 url: 'https://github.com/KevLehman'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -1565,7 +1574,7 @@ a = {
               actor: {
                 name: 'Kevin Aleman',
                 url: 'https://github.com/KevLehman'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -1574,16 +1583,17 @@ a = {
               actor: {
                 name: 'Kevin Aleman',
                 url: 'https://github.com/KevLehman'
-              },
-            },
-          ],
-        },
+              }
+            }
+          ]
+        }
       },
       {
         number: 26687,
         title: '[IMPROVE] Results of user auto complete',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/26687',
         createdAt: '2022-08-25T16:28:11Z',
+        mergedAt: '2022-09-30T03:52:07Z',
         timelineItems: {
           totalCount: 17,
           nodes: [
@@ -1594,7 +1604,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -1607,7 +1617,7 @@ a = {
                 __typename: 'Team',
                 name: 'chat-engine',
                 url: 'https://github.com/orgs/RocketChat/teams/chat-engine'
-              },
+              }
             },
             {
               __typename: 'MilestonedEvent',
@@ -1625,7 +1635,7 @@ a = {
                 __typename: 'User',
                 name: 'Diego Sampaio',
                 url: 'https://github.com/sampaiodiego'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -1634,7 +1644,7 @@ a = {
               actor: {
                 name: 'Alvaro Mello',
                 url: 'https://github.com/alvaropmello'
-              },
+              }
             },
             {
               __typename: 'UnlabeledEvent',
@@ -1643,7 +1653,7 @@ a = {
               actor: {
                 name: 'Levy Costa',
                 url: 'https://github.com/LevyCosta'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -1652,7 +1662,7 @@ a = {
               actor: {
                 name: 'Levy Costa',
                 url: 'https://github.com/LevyCosta'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -1661,7 +1671,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -1727,15 +1737,16 @@ a = {
                 url: 'https://github.com/sampaiodiego'
               },
               state: 'APPROVED'
-            },
-          ],
-        },
+            }
+          ]
+        }
       },
       {
         number: 26705,
         title: '[NEW] Matrix Federation events coverage expansion (support for 5 more events)',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/26705',
         createdAt: '2022-08-26T17:18:12Z',
+        mergedAt: '2022-09-23T22:56:41Z',
         timelineItems: {
           totalCount: 28,
           nodes: [
@@ -1746,7 +1757,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -1755,7 +1766,7 @@ a = {
               actor: {
                 name: 'Marcos Spessatto Defendi',
                 url: 'https://github.com/MarcosSpessatto'
-              },
+              }
             },
             {
               __typename: 'ReadyForReviewEvent',
@@ -1763,7 +1774,7 @@ a = {
               actor: {
                 name: 'Marcos Spessatto Defendi',
                 url: 'https://github.com/MarcosSpessatto'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -1776,7 +1787,7 @@ a = {
                 __typename: 'Team',
                 name: 'chat-engine',
                 url: 'https://github.com/orgs/RocketChat/teams/chat-engine'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -1789,7 +1800,7 @@ a = {
                 __typename: 'Team',
                 name: 'Frontend',
                 url: 'https://github.com/orgs/RocketChat/teams/frontend'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -1802,7 +1813,7 @@ a = {
                 __typename: 'User',
                 name: 'Alan Sikora',
                 url: 'https://github.com/alansikora'
-              },
+              }
             },
             {
               __typename: 'MilestonedEvent',
@@ -1854,7 +1865,7 @@ a = {
                 __typename: 'User',
                 name: 'Pierre Lehnen',
                 url: 'https://github.com/pierre-lehnen-rc'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -1876,7 +1887,7 @@ a = {
                 __typename: 'User',
                 name: 'Pierre Lehnen',
                 url: 'https://github.com/pierre-lehnen-rc'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -1885,7 +1896,7 @@ a = {
               actor: {
                 name: 'Marcos Spessatto Defendi',
                 url: 'https://github.com/MarcosSpessatto'
-              },
+              }
             },
             {
               __typename: 'UnlabeledEvent',
@@ -1894,7 +1905,7 @@ a = {
               actor: {
                 name: 'Marcos Spessatto Defendi',
                 url: 'https://github.com/MarcosSpessatto'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -1903,7 +1914,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -1925,7 +1936,7 @@ a = {
                 __typename: 'User',
                 name: 'Pierre Lehnen',
                 url: 'https://github.com/pierre-lehnen-rc'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -1940,7 +1951,7 @@ a = {
               __typename: 'UnlabeledEvent',
               createdAt: '2022-09-22T17:57:10Z',
               label: { name: 'stat: ready to merge' },
-              actor: {},
+              actor: {}
             },
             {
               __typename: 'LabeledEvent',
@@ -1949,7 +1960,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -1962,7 +1973,7 @@ a = {
                 __typename: 'User',
                 name: 'Pierre Lehnen',
                 url: 'https://github.com/pierre-lehnen-rc'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -1977,7 +1988,7 @@ a = {
               __typename: 'UnlabeledEvent',
               createdAt: '2022-09-23T20:39:42Z',
               label: { name: 'stat: ready to merge' },
-              actor: {},
+              actor: {}
             },
             {
               __typename: 'LabeledEvent',
@@ -1986,7 +1997,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -1996,15 +2007,16 @@ a = {
                 url: 'https://github.com/ggazzo'
               },
               state: 'APPROVED'
-            },
-          ],
-        },
+            }
+          ]
+        }
       },
       {
         number: 26709,
         title: "Chore: Upgrading livechat's ui-kit package to latest version",
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/26709',
         createdAt: '2022-08-26T18:36:22Z',
+        mergedAt: '2022-09-14T18:59:36Z',
         timelineItems: {
           totalCount: 14,
           nodes: [
@@ -2015,7 +2027,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'ReadyForReviewEvent',
@@ -2023,7 +2035,7 @@ a = {
               actor: {
                 name: 'Aleksander Nicacio da Silva',
                 url: 'https://github.com/aleksandernsilva'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -2036,7 +2048,7 @@ a = {
                 __typename: 'Team',
                 name: 'Frontend',
                 url: 'https://github.com/orgs/RocketChat/teams/frontend'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -2049,7 +2061,7 @@ a = {
                 __typename: 'Team',
                 name: 'chat-engine',
                 url: 'https://github.com/orgs/RocketChat/teams/chat-engine'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -2071,7 +2083,7 @@ a = {
                 __typename: 'User',
                 name: 'Tiago Evangelista Pinto',
                 url: 'https://github.com/tiagoevanp'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -2080,7 +2092,7 @@ a = {
               actor: {
                 name: 'Aleksander Nicacio da Silva',
                 url: 'https://github.com/aleksandernsilva'
-              },
+              }
             },
             {
               __typename: 'UnlabeledEvent',
@@ -2089,7 +2101,7 @@ a = {
               actor: {
                 name: 'Aleksander Nicacio da Silva',
                 url: 'https://github.com/aleksandernsilva'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -2098,7 +2110,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -2121,7 +2133,7 @@ a = {
               actor: {
                 name: 'Aleksander Nicacio da Silva',
                 url: 'https://github.com/aleksandernsilva'
-              },
+              }
             },
             {
               __typename: 'UnlabeledEvent',
@@ -2130,7 +2142,7 @@ a = {
               actor: {
                 name: 'Aleksander Nicacio da Silva',
                 url: 'https://github.com/aleksandernsilva'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -2139,16 +2151,17 @@ a = {
               actor: {
                 name: 'Aleksander Nicacio da Silva',
                 url: 'https://github.com/aleksandernsilva'
-              },
-            },
-          ],
-        },
+              }
+            }
+          ]
+        }
       },
       {
         number: 26730,
         title: 'Chore: Add E2E tests to missing omnichannel endpoints',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/26730',
         createdAt: '2022-08-29T20:56:56Z',
+        mergedAt: '2022-09-02T17:20:57Z',
         timelineItems: {
           totalCount: 9,
           nodes: [
@@ -2163,7 +2176,7 @@ a = {
                 __typename: 'Team',
                 name: 'Omnichannel',
                 url: 'https://github.com/orgs/RocketChat/teams/omnichannel'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -2176,7 +2189,7 @@ a = {
                 __typename: 'Team',
                 name: 'chat-engine',
                 url: 'https://github.com/orgs/RocketChat/teams/chat-engine'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -2185,7 +2198,7 @@ a = {
               actor: {
                 name: 'Kevin Aleman',
                 url: 'https://github.com/KevLehman'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -2194,7 +2207,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -2216,7 +2229,7 @@ a = {
                 __typename: 'User',
                 name: 'Murtaza Patrawala',
                 url: 'https://github.com/murtaza98'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -2240,15 +2253,16 @@ a = {
                 url: 'https://github.com/sampaiodiego'
               },
               state: 'APPROVED'
-            },
-          ],
-        },
+            }
+          ]
+        }
       },
       {
         number: 26751,
         title: '[NEW] Add Markup to QuoteAttachment',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/26751',
         createdAt: '2022-08-30T19:36:28Z',
+        mergedAt: '2022-09-22T16:37:56Z',
         timelineItems: {
           totalCount: 25,
           nodes: [
@@ -2263,7 +2277,7 @@ a = {
                 __typename: 'Team',
                 name: 'Frontend',
                 url: 'https://github.com/orgs/RocketChat/teams/frontend'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -2272,7 +2286,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -2285,7 +2299,7 @@ a = {
                 __typename: 'Team',
                 name: 'chat-engine',
                 url: 'https://github.com/orgs/RocketChat/teams/chat-engine'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -2312,7 +2326,7 @@ a = {
               actor: {
                 name: 'Levy Costa',
                 url: 'https://github.com/LevyCosta'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -2321,7 +2335,7 @@ a = {
               actor: {
                 name: 'Levy Costa',
                 url: 'https://github.com/LevyCosta'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -2330,13 +2344,13 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'UnlabeledEvent',
               createdAt: '2022-09-05T20:46:36Z',
               label: { name: 'stat: ready to merge' },
-              actor: {},
+              actor: {}
             },
             {
               __typename: 'LabeledEvent',
@@ -2345,7 +2359,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -2388,7 +2402,7 @@ a = {
                 __typename: 'User',
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'UnlabeledEvent',
@@ -2397,7 +2411,7 @@ a = {
               actor: {
                 name: 'Hugo Costa',
                 url: 'https://github.com/hugocostadev'
-              },
+              }
             },
             {
               __typename: 'UnlabeledEvent',
@@ -2406,7 +2420,7 @@ a = {
               actor: {
                 name: 'Hugo Costa',
                 url: 'https://github.com/hugocostadev'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -2415,7 +2429,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -2442,7 +2456,7 @@ a = {
               actor: {
                 name: 'Levy Costa',
                 url: 'https://github.com/LevyCosta'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -2451,7 +2465,7 @@ a = {
               actor: {
                 name: 'Levy Costa',
                 url: 'https://github.com/LevyCosta'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -2460,7 +2474,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'MilestonedEvent',
@@ -2474,16 +2488,17 @@ a = {
               actor: {
                 name: 'Alvaro Mello',
                 url: 'https://github.com/alvaropmello'
-              },
-            },
-          ],
-        },
+              }
+            }
+          ]
+        }
       },
       {
         number: 26755,
         title: '[FIX] Asset settings description not showing on admin',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/26755',
         createdAt: '2022-08-30T21:16:39Z',
+        mergedAt: '2022-09-15T15:25:00Z',
         timelineItems: {
           totalCount: 23,
           nodes: [
@@ -2498,7 +2513,7 @@ a = {
                 __typename: 'Team',
                 name: 'chat-engine',
                 url: 'https://github.com/orgs/RocketChat/teams/chat-engine'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -2511,7 +2526,7 @@ a = {
                 __typename: 'Team',
                 name: 'Frontend',
                 url: 'https://github.com/orgs/RocketChat/teams/frontend'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -2520,7 +2535,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -2538,7 +2553,7 @@ a = {
               actor: {
                 name: 'Levy Costa',
                 url: 'https://github.com/LevyCosta'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -2547,7 +2562,7 @@ a = {
               actor: {
                 name: 'Levy Costa',
                 url: 'https://github.com/LevyCosta'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -2556,7 +2571,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -2577,7 +2592,7 @@ a = {
               actor: {
                 name: 'Filipe Marins',
                 url: 'https://github.com/filipemarins'
-              },
+              }
             },
             {
               __typename: 'UnlabeledEvent',
@@ -2586,7 +2601,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -2595,7 +2610,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'UnlabeledEvent',
@@ -2604,7 +2619,7 @@ a = {
               actor: {
                 name: 'Filipe Marins',
                 url: 'https://github.com/filipemarins'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -2613,7 +2628,7 @@ a = {
               actor: {
                 name: 'Filipe Marins',
                 url: 'https://github.com/filipemarins'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -2622,7 +2637,7 @@ a = {
               actor: {
                 name: 'Filipe Marins',
                 url: 'https://github.com/filipemarins'
-              },
+              }
             },
             {
               __typename: 'UnlabeledEvent',
@@ -2631,7 +2646,7 @@ a = {
               actor: {
                 name: 'Filipe Marins',
                 url: 'https://github.com/filipemarins'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -2640,7 +2655,7 @@ a = {
               actor: {
                 name: 'Filipe Marins',
                 url: 'https://github.com/filipemarins'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -2671,7 +2686,7 @@ a = {
                 __typename: 'User',
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -2694,16 +2709,17 @@ a = {
               actor: {
                 name: 'Alvaro Mello',
                 url: 'https://github.com/alvaropmello'
-              },
-            },
-          ],
-        },
+              }
+            }
+          ]
+        }
       },
       {
         number: 26757,
         title: 'Chore: Move Header to ui-client',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/26757',
         createdAt: '2022-08-31T02:11:34Z',
+        mergedAt: '2022-09-15T16:57:42Z',
         timelineItems: {
           totalCount: 12,
           nodes: [
@@ -2718,7 +2734,7 @@ a = {
                 __typename: 'Team',
                 name: 'Frontend',
                 url: 'https://github.com/orgs/RocketChat/teams/frontend'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -2727,7 +2743,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'MilestonedEvent',
@@ -2745,7 +2761,7 @@ a = {
                 __typename: 'Team',
                 name: 'Omnichannel',
                 url: 'https://github.com/orgs/RocketChat/teams/omnichannel'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -2758,7 +2774,7 @@ a = {
                 __typename: 'Team',
                 name: 'Apps',
                 url: 'https://github.com/orgs/RocketChat/teams/apps'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -2771,7 +2787,7 @@ a = {
                 __typename: 'Team',
                 name: 'chat-engine',
                 url: 'https://github.com/orgs/RocketChat/teams/chat-engine'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -2798,7 +2814,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'UnlabeledEvent',
@@ -2807,7 +2823,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -2816,7 +2832,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -2826,15 +2842,16 @@ a = {
                 url: 'https://github.com/ggazzo'
               },
               state: 'APPROVED'
-            },
-          ],
-        },
+            }
+          ]
+        }
       },
       {
         number: 26775,
         title: '[FIX] Menu options margin spacing',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/26775',
         createdAt: '2022-09-01T12:58:21Z',
+        mergedAt: '2022-09-06T17:09:41Z',
         timelineItems: {
           totalCount: 11,
           nodes: [
@@ -2845,7 +2862,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'ReadyForReviewEvent',
@@ -2853,7 +2870,7 @@ a = {
               actor: {
                 name: 'Guilherme Jun Grillo',
                 url: 'https://github.com/guijun13'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -2866,7 +2883,7 @@ a = {
                 __typename: 'Team',
                 name: 'Frontend',
                 url: 'https://github.com/orgs/RocketChat/teams/frontend'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -2885,7 +2902,7 @@ a = {
                 __typename: 'User',
                 name: null,
                 url: 'https://github.com/gabriellsh'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -2897,7 +2914,7 @@ a = {
               __typename: 'LabeledEvent',
               createdAt: '2022-09-06T14:49:34Z',
               label: { name: 'stat: QA tested' },
-              actor: { name: null, url: 'https://github.com/gabriellsh' },
+              actor: { name: null, url: 'https://github.com/gabriellsh' }
             },
             {
               __typename: 'UnlabeledEvent',
@@ -2906,7 +2923,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -2915,7 +2932,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'MilestonedEvent',
@@ -2929,16 +2946,17 @@ a = {
               actor: {
                 name: 'Alvaro Mello',
                 url: 'https://github.com/alvaropmello'
-              },
-            },
-          ],
-        },
+              }
+            }
+          ]
+        }
       },
       {
         number: 26812,
         title: '[FIX] Ephemeral messages not respecting katex setting',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/26812',
         createdAt: '2022-09-05T22:18:34Z',
+        mergedAt: '2022-09-22T22:07:37Z',
         timelineItems: {
           totalCount: 7,
           nodes: [
@@ -2949,7 +2967,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'MilestonedEvent',
@@ -2967,7 +2985,7 @@ a = {
                 __typename: 'User',
                 name: 'Tasso Evangelista',
                 url: 'https://github.com/tassoevan'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -2985,7 +3003,7 @@ a = {
               actor: {
                 name: 'Tasso Evangelista',
                 url: 'https://github.com/tassoevan'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -2994,7 +3012,7 @@ a = {
               actor: {
                 name: 'Tasso Evangelista',
                 url: 'https://github.com/tassoevan'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -3003,16 +3021,17 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
-            },
-          ],
-        },
+              }
+            }
+          ]
+        }
       },
       {
         number: 26824,
         title: '[IMPROVE] Include `syncAvatars` on `ldap.syncNow`',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/26824',
         createdAt: '2022-09-06T20:38:11Z',
+        mergedAt: '2022-09-12T18:57:22Z',
         timelineItems: {
           totalCount: 11,
           nodes: [
@@ -3023,7 +3042,7 @@ a = {
               actor: {
                 name: 'Luciano Marcos Pierdona Junior',
                 url: 'https://github.com/LucianoPierdona'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -3036,7 +3055,7 @@ a = {
                 __typename: 'User',
                 name: 'Matheus Barbosa Silva',
                 url: 'https://github.com/matheusbsilva137'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -3058,7 +3077,7 @@ a = {
                 __typename: 'User',
                 name: 'Pierre Lehnen',
                 url: 'https://github.com/pierre-lehnen-rc'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -3085,7 +3104,7 @@ a = {
               actor: {
                 name: 'Levy Costa',
                 url: 'https://github.com/LevyCosta'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -3094,7 +3113,7 @@ a = {
               actor: {
                 name: 'Levy Costa',
                 url: 'https://github.com/LevyCosta'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -3103,7 +3122,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'MilestonedEvent',
@@ -3117,16 +3136,17 @@ a = {
               actor: {
                 name: 'Alvaro Mello',
                 url: 'https://github.com/alvaropmello'
-              },
-            },
-          ],
-        },
+              }
+            }
+          ]
+        }
       },
       {
         number: 26829,
         title: 'Chore: Omnichannel endpoints to ts',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/26829',
         createdAt: '2022-09-07T18:46:38Z',
+        mergedAt: '2022-09-22T17:44:49Z',
         timelineItems: {
           totalCount: 18,
           nodes: [
@@ -3137,7 +3157,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'ReadyForReviewEvent',
@@ -3145,7 +3165,7 @@ a = {
               actor: {
                 name: 'Kevin Aleman',
                 url: 'https://github.com/KevLehman'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -3158,7 +3178,7 @@ a = {
                 __typename: 'Team',
                 name: 'Omnichannel',
                 url: 'https://github.com/orgs/RocketChat/teams/omnichannel'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -3171,7 +3191,7 @@ a = {
                 __typename: 'Team',
                 name: 'Frontend',
                 url: 'https://github.com/orgs/RocketChat/teams/frontend'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -3184,7 +3204,7 @@ a = {
                 __typename: 'Team',
                 name: 'chat-engine',
                 url: 'https://github.com/orgs/RocketChat/teams/chat-engine'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -3242,7 +3262,7 @@ a = {
                 __typename: 'User',
                 name: 'Murtaza Patrawala',
                 url: 'https://github.com/murtaza98'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -3274,7 +3294,7 @@ a = {
               actor: {
                 name: 'Kevin Aleman',
                 url: 'https://github.com/KevLehman'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -3283,7 +3303,7 @@ a = {
               actor: {
                 name: 'Kevin Aleman',
                 url: 'https://github.com/KevLehman'
-              },
+              }
             },
             {
               __typename: 'UnlabeledEvent',
@@ -3292,7 +3312,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -3301,16 +3321,17 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
-            },
-          ],
-        },
+              }
+            }
+          ]
+        }
       },
       {
         number: 26831,
         title: '[IMPROVE] Setting for login email notifications',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/26831',
         createdAt: '2022-09-08T13:40:15Z',
+        mergedAt: '2022-09-21T22:11:06Z',
         timelineItems: {
           totalCount: 15,
           nodes: [
@@ -3321,7 +3342,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -3334,7 +3355,7 @@ a = {
                 __typename: 'Team',
                 name: 'Frontend',
                 url: 'https://github.com/orgs/RocketChat/teams/frontend'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -3361,7 +3382,7 @@ a = {
                 __typename: 'Team',
                 name: 'chat-engine',
                 url: 'https://github.com/orgs/RocketChat/teams/chat-engine'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -3388,7 +3409,7 @@ a = {
               actor: {
                 name: 'Levy Costa',
                 url: 'https://github.com/LevyCosta'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -3397,7 +3418,7 @@ a = {
               actor: {
                 name: 'Levy Costa',
                 url: 'https://github.com/LevyCosta'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -3406,7 +3427,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -3451,16 +3472,17 @@ a = {
               actor: {
                 name: 'Alvaro Mello',
                 url: 'https://github.com/alvaropmello'
-              },
-            },
-          ],
-        },
+              }
+            }
+          ]
+        }
       },
       {
         number: 26832,
         title: '[IMPROVE] Rounded video attachment',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/26832',
         createdAt: '2022-09-08T15:26:13Z',
+        mergedAt: '2022-09-12T20:41:29Z',
         timelineItems: {
           totalCount: 8,
           nodes: [
@@ -3475,7 +3497,7 @@ a = {
                 __typename: 'Team',
                 name: 'Frontend',
                 url: 'https://github.com/orgs/RocketChat/teams/frontend'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -3484,7 +3506,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -3493,7 +3515,7 @@ a = {
               actor: {
                 name: 'Hugo Costa',
                 url: 'https://github.com/hugocostadev'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -3511,7 +3533,7 @@ a = {
               actor: {
                 name: 'Levy Costa',
                 url: 'https://github.com/LevyCosta'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -3520,7 +3542,7 @@ a = {
               actor: {
                 name: 'Levy Costa',
                 url: 'https://github.com/LevyCosta'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -3529,21 +3551,22 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'MilestonedEvent',
               createdAt: '2022-09-21T21:16:15Z',
               milestoneTitle: '5.2.0'
-            },
-          ],
-        },
+            }
+          ]
+        }
       },
       {
         number: 26834,
         title: '[IMPROVE] Updating voip tooltips and icons',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/26834',
         createdAt: '2022-09-08T20:22:56Z',
+        mergedAt: '2022-09-19T17:30:50Z',
         timelineItems: {
           totalCount: 15,
           nodes: [
@@ -3554,7 +3577,7 @@ a = {
               actor: {
                 name: 'Aleksander Nicacio da Silva',
                 url: 'https://github.com/aleksandernsilva'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -3563,7 +3586,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'ReadyForReviewEvent',
@@ -3571,7 +3594,7 @@ a = {
               actor: {
                 name: 'Aleksander Nicacio da Silva',
                 url: 'https://github.com/aleksandernsilva'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -3584,7 +3607,7 @@ a = {
                 __typename: 'Team',
                 name: 'Frontend',
                 url: 'https://github.com/orgs/RocketChat/teams/frontend'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -3611,7 +3634,7 @@ a = {
               actor: {
                 name: 'Aleksander Nicacio da Silva',
                 url: 'https://github.com/aleksandernsilva'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -3620,7 +3643,7 @@ a = {
               actor: {
                 name: 'Aleksander Nicacio da Silva',
                 url: 'https://github.com/aleksandernsilva'
-              },
+              }
             },
             {
               __typename: 'MilestonedEvent',
@@ -3647,7 +3670,7 @@ a = {
                 __typename: 'User',
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -3665,7 +3688,7 @@ a = {
               actor: {
                 name: 'Aleksander Nicacio da Silva',
                 url: 'https://github.com/aleksandernsilva'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -3674,7 +3697,7 @@ a = {
               actor: {
                 name: 'Aleksander Nicacio da Silva',
                 url: 'https://github.com/aleksandernsilva'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -3683,16 +3706,17 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
-            },
-          ],
-        },
+              }
+            }
+          ]
+        }
       },
       {
         number: 26841,
         title: 'Chore: Update fuselage to next version.',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/26841',
         createdAt: '2022-09-09T19:28:12Z',
+        mergedAt: '2022-09-14T12:49:00Z',
         timelineItems: {
           totalCount: 7,
           nodes: [
@@ -3703,7 +3727,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -3721,7 +3745,7 @@ a = {
               actor: {
                 name: 'Hugo Costa',
                 url: 'https://github.com/hugocostadev'
-              },
+              }
             },
             {
               __typename: 'UnlabeledEvent',
@@ -3730,7 +3754,7 @@ a = {
               actor: {
                 name: 'Levy Costa',
                 url: 'https://github.com/LevyCosta'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -3739,7 +3763,7 @@ a = {
               actor: {
                 name: 'Levy Costa',
                 url: 'https://github.com/LevyCosta'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -3748,21 +3772,22 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'MilestonedEvent',
               createdAt: '2022-09-14T12:25:34Z',
               milestoneTitle: '5.2.0'
-            },
-          ],
-        },
+            }
+          ]
+        }
       },
       {
         number: 26843,
         title: '[FIX] [Livechat] Unread messages badge',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/26843',
         createdAt: '2022-09-09T20:00:25Z',
+        mergedAt: '2022-09-22T03:11:10Z',
         timelineItems: {
           totalCount: 16,
           nodes: [
@@ -3773,7 +3798,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'ReadyForReviewEvent',
@@ -3781,7 +3806,7 @@ a = {
               actor: {
                 name: 'Tiago Evangelista Pinto',
                 url: 'https://github.com/tiagoevanp'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -3794,7 +3819,7 @@ a = {
                 __typename: 'Team',
                 name: 'Frontend',
                 url: 'https://github.com/orgs/RocketChat/teams/frontend'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -3807,7 +3832,7 @@ a = {
                 __typename: 'Team',
                 name: 'chat-engine',
                 url: 'https://github.com/orgs/RocketChat/teams/chat-engine'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -3830,7 +3855,7 @@ a = {
               actor: {
                 name: 'Tiago Evangelista Pinto',
                 url: 'https://github.com/tiagoevanp'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -3857,7 +3882,7 @@ a = {
               actor: {
                 name: 'Tiago Evangelista Pinto',
                 url: 'https://github.com/tiagoevanp'
-              },
+              }
             },
             {
               __typename: 'UnlabeledEvent',
@@ -3866,7 +3891,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -3875,7 +3900,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -3912,15 +3937,16 @@ a = {
                 url: 'https://github.com/ggazzo'
               },
               state: 'APPROVED'
-            },
-          ],
-        },
+            }
+          ]
+        }
       },
       {
         number: 26852,
         title: '[FIX] Expanded thread behind sidebar on small screens',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/26852',
         createdAt: '2022-09-12T15:23:46Z',
+        mergedAt: '2022-09-14T21:11:54Z',
         timelineItems: {
           totalCount: 9,
           nodes: [
@@ -3935,7 +3961,7 @@ a = {
                 __typename: 'Team',
                 name: 'Frontend',
                 url: 'https://github.com/orgs/RocketChat/teams/frontend'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -3944,7 +3970,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -3953,7 +3979,7 @@ a = {
               actor: {
                 name: 'Hugo Costa',
                 url: 'https://github.com/hugocostadev'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -3971,7 +3997,7 @@ a = {
               actor: {
                 name: 'Levy Costa',
                 url: 'https://github.com/LevyCosta'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -3980,7 +4006,7 @@ a = {
               actor: {
                 name: 'Levy Costa',
                 url: 'https://github.com/LevyCosta'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -3989,7 +4015,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -4004,15 +4030,16 @@ a = {
               __typename: 'MilestonedEvent',
               createdAt: '2022-09-21T21:21:45Z',
               milestoneTitle: '5.2.0'
-            },
-          ],
-        },
+            }
+          ]
+        }
       },
       {
         number: 26855,
         title: 'Chore: Introduce `useQuery` as data source for the `Room` component',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/26855',
         createdAt: '2022-09-12T21:33:51Z',
+        mergedAt: '2022-09-23T16:37:56Z',
         timelineItems: {
           totalCount: 6,
           nodes: [
@@ -4023,7 +4050,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'MilestonedEvent',
@@ -4036,7 +4063,7 @@ a = {
               actor: {
                 name: 'Tasso Evangelista',
                 url: 'https://github.com/tassoevan'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -4049,7 +4076,7 @@ a = {
                 __typename: 'Team',
                 name: 'Omnichannel',
                 url: 'https://github.com/orgs/RocketChat/teams/omnichannel'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -4062,7 +4089,7 @@ a = {
                 __typename: 'Team',
                 name: 'Frontend',
                 url: 'https://github.com/orgs/RocketChat/teams/frontend'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -4075,16 +4102,17 @@ a = {
                 __typename: 'Team',
                 name: 'chat-engine',
                 url: 'https://github.com/orgs/RocketChat/teams/chat-engine'
-              },
-            },
-          ],
-        },
+              }
+            }
+          ]
+        }
       },
       {
         number: 26863,
         title: '[IMPROVE] Changed dial pad appearance to match original design',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/26863',
         createdAt: '2022-09-13T18:02:44Z',
+        mergedAt: '2022-09-15T18:45:19Z',
         timelineItems: {
           totalCount: 14,
           nodes: [
@@ -4099,7 +4127,7 @@ a = {
                 __typename: 'User',
                 name: 'Tiago Evangelista Pinto',
                 url: 'https://github.com/tiagoevanp'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -4108,7 +4136,7 @@ a = {
               actor: {
                 name: 'Aleksander Nicacio da Silva',
                 url: 'https://github.com/aleksandernsilva'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -4117,7 +4145,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'ReadyForReviewEvent',
@@ -4125,7 +4153,7 @@ a = {
               actor: {
                 name: 'Aleksander Nicacio da Silva',
                 url: 'https://github.com/aleksandernsilva'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -4147,7 +4175,7 @@ a = {
                 __typename: 'User',
                 name: 'Tiago Evangelista Pinto',
                 url: 'https://github.com/tiagoevanp'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -4174,7 +4202,7 @@ a = {
               actor: {
                 name: 'Aleksander Nicacio da Silva',
                 url: 'https://github.com/aleksandernsilva'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -4183,7 +4211,7 @@ a = {
               actor: {
                 name: 'Aleksander Nicacio da Silva',
                 url: 'https://github.com/aleksandernsilva'
-              },
+              }
             },
             {
               __typename: 'MilestonedEvent',
@@ -4197,7 +4225,7 @@ a = {
               actor: {
                 name: 'Aleksander Nicacio da Silva',
                 url: 'https://github.com/aleksandernsilva'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -4206,7 +4234,7 @@ a = {
               actor: {
                 name: 'Aleksander Nicacio da Silva',
                 url: 'https://github.com/aleksandernsilva'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -4215,16 +4243,17 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
-            },
-          ],
-        },
+              }
+            }
+          ]
+        }
       },
       {
         number: 26867,
         title: '[NEW] Move administration links to an exclusive kebab menu',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/26867',
         createdAt: '2022-09-14T06:02:02Z',
+        mergedAt: '2022-09-23T22:55:06Z',
         timelineItems: {
           totalCount: 22,
           nodes: [
@@ -4239,7 +4268,7 @@ a = {
                 __typename: 'Team',
                 name: 'Omnichannel',
                 url: 'https://github.com/orgs/RocketChat/teams/omnichannel'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -4252,7 +4281,7 @@ a = {
                 __typename: 'Team',
                 name: 'chat-engine',
                 url: 'https://github.com/orgs/RocketChat/teams/chat-engine'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -4265,7 +4294,7 @@ a = {
                 __typename: 'Team',
                 name: 'Frontend',
                 url: 'https://github.com/orgs/RocketChat/teams/frontend'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -4274,7 +4303,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -4301,7 +4330,7 @@ a = {
               actor: {
                 name: 'Levy Costa',
                 url: 'https://github.com/LevyCosta'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -4310,7 +4339,7 @@ a = {
               actor: {
                 name: 'Levy Costa',
                 url: 'https://github.com/LevyCosta'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -4319,7 +4348,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -4360,7 +4389,7 @@ a = {
               actor: {
                 name: 'Alvaro Mello',
                 url: 'https://github.com/alvaropmello'
-              },
+              }
             },
             {
               __typename: 'UnlabeledEvent',
@@ -4369,7 +4398,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'UnlabeledEvent',
@@ -4378,7 +4407,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -4387,7 +4416,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'UnlabeledEvent',
@@ -4396,7 +4425,7 @@ a = {
               actor: {
                 name: 'Levy Costa',
                 url: 'https://github.com/LevyCosta'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -4405,7 +4434,7 @@ a = {
               actor: {
                 name: 'Levy Costa',
                 url: 'https://github.com/LevyCosta'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -4414,7 +4443,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -4433,15 +4462,16 @@ a = {
                 url: 'https://github.com/KevLehman'
               },
               state: 'APPROVED'
-            },
-          ],
-        },
+            }
+          ]
+        }
       },
       {
         number: 26877,
         title: '[IMPROVE] Better descriptions for VoIP Settings',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/26877',
         createdAt: '2022-09-14T21:46:35Z',
+        mergedAt: '2022-09-21T18:54:47Z',
         timelineItems: {
           totalCount: 9,
           nodes: [
@@ -4452,7 +4482,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -4465,7 +4495,7 @@ a = {
                 __typename: 'User',
                 name: 'Aleksander Nicacio da Silva',
                 url: 'https://github.com/aleksandernsilva'
-              },
+              }
             },
             {
               __typename: 'MilestonedEvent',
@@ -4488,7 +4518,7 @@ a = {
               actor: {
                 name: 'Aleksander Nicacio da Silva',
                 url: 'https://github.com/aleksandernsilva'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -4506,7 +4536,7 @@ a = {
               actor: {
                 name: 'Martin Schoeler',
                 url: 'https://github.com/MartinSchoeler'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -4515,7 +4545,7 @@ a = {
               actor: {
                 name: 'Martin Schoeler',
                 url: 'https://github.com/MartinSchoeler'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -4524,16 +4554,17 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
-            },
-          ],
-        },
+              }
+            }
+          ]
+        }
       },
       {
         number: 26900,
         title: '[FIX] Message sequential after message thread preview',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/26900',
         createdAt: '2022-09-19T14:38:20Z',
+        mergedAt: '2022-09-22T23:14:05Z',
         timelineItems: {
           totalCount: 14,
           nodes: [
@@ -4548,7 +4579,7 @@ a = {
                 __typename: 'Team',
                 name: 'Frontend',
                 url: 'https://github.com/orgs/RocketChat/teams/frontend'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -4557,7 +4588,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -4588,7 +4619,7 @@ a = {
                 __typename: 'Team',
                 name: 'chat-engine',
                 url: 'https://github.com/orgs/RocketChat/teams/chat-engine'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -4606,7 +4637,7 @@ a = {
               actor: {
                 name: 'Levy Costa',
                 url: 'https://github.com/LevyCosta'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -4615,7 +4646,7 @@ a = {
               actor: {
                 name: 'Levy Costa',
                 url: 'https://github.com/LevyCosta'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -4624,7 +4655,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'MilestonedEvent',
@@ -4656,7 +4687,7 @@ a = {
               actor: {
                 name: 'Alvaro Mello',
                 url: 'https://github.com/alvaropmello'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -4666,15 +4697,16 @@ a = {
                 url: 'https://github.com/ggazzo'
               },
               state: 'APPROVED'
-            },
-          ],
-        },
+            }
+          ]
+        }
       },
       {
         number: 26912,
         title: 'Chore: fix regressions for omnichannel due room refactor',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/26912',
         createdAt: '2022-09-21T16:36:08Z',
+        mergedAt: '2022-09-23T02:43:24Z',
         timelineItems: {
           totalCount: 10,
           nodes: [
@@ -4685,7 +4717,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'ReadyForReviewEvent',
@@ -4693,7 +4725,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -4706,7 +4738,7 @@ a = {
                 __typename: 'Team',
                 name: 'Frontend',
                 url: 'https://github.com/orgs/RocketChat/teams/frontend'
-              },
+              }
             },
             {
               __typename: 'MilestonedEvent',
@@ -4724,7 +4756,7 @@ a = {
                 __typename: 'Team',
                 name: 'Omnichannel',
                 url: 'https://github.com/orgs/RocketChat/teams/omnichannel'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -4751,7 +4783,7 @@ a = {
               actor: {
                 name: 'Tasso Evangelista',
                 url: 'https://github.com/tassoevan'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -4760,7 +4792,7 @@ a = {
               actor: {
                 name: 'Tasso Evangelista',
                 url: 'https://github.com/tassoevan'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -4769,16 +4801,17 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
-            },
-          ],
-        },
+              }
+            }
+          ]
+        }
       },
       {
         number: 26921,
         title: '[FIX] MIME Type fallback for .mov File Extensions',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/26921',
         createdAt: '2022-09-22T13:15:54Z',
+        mergedAt: '2022-09-22T14:47:00Z',
         timelineItems: {
           totalCount: 10,
           nodes: [
@@ -4793,7 +4826,7 @@ a = {
                 __typename: 'Team',
                 name: 'Frontend',
                 url: 'https://github.com/orgs/RocketChat/teams/frontend'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -4802,7 +4835,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -4811,7 +4844,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'UnlabeledEvent',
@@ -4820,7 +4853,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -4838,7 +4871,7 @@ a = {
               actor: {
                 name: 'Hugo Costa',
                 url: 'https://github.com/hugocostadev'
-              },
+              }
             },
             {
               __typename: 'UnlabeledEvent',
@@ -4847,7 +4880,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -4856,7 +4889,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'MilestonedEvent',
@@ -4870,16 +4903,17 @@ a = {
               actor: {
                 name: 'Alvaro Mello',
                 url: 'https://github.com/alvaropmello'
-              },
-            },
-          ],
-        },
+              }
+            }
+          ]
+        }
       },
       {
         number: 26924,
         title: 'Chore: Updating apps engine',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/26924',
         createdAt: '2022-09-22T16:33:18Z',
+        mergedAt: '2022-09-23T19:57:47Z',
         timelineItems: {
           totalCount: 8,
           nodes: [
@@ -4890,7 +4924,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -4908,7 +4942,7 @@ a = {
               actor: {
                 name: 'Douglas Gubert',
                 url: 'https://github.com/d-gubert'
-              },
+              }
             },
             {
               __typename: 'UnlabeledEvent',
@@ -4917,7 +4951,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -4926,7 +4960,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'MilestonedEvent',
@@ -4937,7 +4971,7 @@ a = {
               __typename: 'UnlabeledEvent',
               createdAt: '2022-09-22T23:58:27Z',
               label: { name: 'stat: ready to merge' },
-              actor: {},
+              actor: {}
             },
             {
               __typename: 'LabeledEvent',
@@ -4946,16 +4980,17 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
-            },
-          ],
-        },
+              }
+            }
+          ]
+        }
       },
       {
         number: 26928,
         title: 'Regression: wrong permission on livechat/tags endpoints',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/26928',
         createdAt: '2022-09-22T23:32:11Z',
+        mergedAt: '2022-09-23T15:03:55Z',
         timelineItems: {
           totalCount: 10,
           nodes: [
@@ -4970,7 +5005,7 @@ a = {
                 __typename: 'Team',
                 name: 'Omnichannel',
                 url: 'https://github.com/orgs/RocketChat/teams/omnichannel'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -4983,7 +5018,7 @@ a = {
                 __typename: 'Team',
                 name: 'chat-engine',
                 url: 'https://github.com/orgs/RocketChat/teams/chat-engine'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -4992,7 +5027,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -5001,7 +5036,7 @@ a = {
               actor: {
                 name: 'Kevin Aleman',
                 url: 'https://github.com/KevLehman'
-              },
+              }
             },
             {
               __typename: 'MilestonedEvent',
@@ -5033,7 +5068,7 @@ a = {
               actor: {
                 name: 'Kevin Aleman',
                 url: 'https://github.com/KevLehman'
-              },
+              }
             },
             {
               __typename: 'UnlabeledEvent',
@@ -5042,7 +5077,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -5051,16 +5086,17 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
-            },
-          ],
-        },
+              }
+            }
+          ]
+        }
       },
       {
         number: 26930,
         title: 'Regression: Fix open room from current chats',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/26930',
         createdAt: '2022-09-23T03:45:27Z',
+        mergedAt: '2022-09-23T20:15:39Z',
         timelineItems: {
           totalCount: 8,
           nodes: [
@@ -5071,7 +5107,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'MilestonedEvent',
@@ -5116,7 +5152,7 @@ a = {
                 __typename: 'Team',
                 name: 'Frontend',
                 url: 'https://github.com/orgs/RocketChat/teams/frontend'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -5135,15 +5171,16 @@ a = {
                 url: 'https://github.com/KevLehman'
               },
               state: 'COMMENTED'
-            },
-          ],
-        },
+            }
+          ]
+        }
       },
       {
         number: 26931,
         title: 'Chore: Convert current-chats to useQuery',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/26931',
         createdAt: '2022-09-23T03:46:49Z',
+        mergedAt: '2022-09-23T18:36:11Z',
         timelineItems: {
           totalCount: 9,
           nodes: [
@@ -5158,7 +5195,7 @@ a = {
                 __typename: 'Team',
                 name: 'Frontend',
                 url: 'https://github.com/orgs/RocketChat/teams/frontend'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -5167,7 +5204,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'MilestonedEvent',
@@ -5208,7 +5245,7 @@ a = {
               actor: {
                 name: 'Martin Schoeler',
                 url: 'https://github.com/MartinSchoeler'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -5217,7 +5254,7 @@ a = {
               actor: {
                 name: 'Martin Schoeler',
                 url: 'https://github.com/MartinSchoeler'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -5226,16 +5263,17 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
-            },
-          ],
-        },
+              }
+            }
+          ]
+        }
       },
       {
         number: 26935,
         title: 'Regression: Incorrect on-hold chat resume message',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/26935',
         createdAt: '2022-09-23T15:23:12Z',
+        mergedAt: '2022-09-30T01:25:41Z',
         timelineItems: {
           totalCount: 15,
           nodes: [
@@ -5246,7 +5284,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'MilestonedEvent',
@@ -5260,7 +5298,7 @@ a = {
               actor: {
                 name: 'Murtaza Patrawala',
                 url: 'https://github.com/murtaza98'
-              },
+              }
             },
             {
               __typename: 'ReadyForReviewEvent',
@@ -5268,7 +5306,7 @@ a = {
               actor: {
                 name: 'Kevin Aleman',
                 url: 'https://github.com/KevLehman'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -5281,7 +5319,7 @@ a = {
                 __typename: 'Team',
                 name: 'Frontend',
                 url: 'https://github.com/orgs/RocketChat/teams/frontend'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -5328,7 +5366,7 @@ a = {
               actor: {
                 name: 'Kevin Aleman',
                 url: 'https://github.com/KevLehman'
-              },
+              }
             },
             {
               __typename: 'UnlabeledEvent',
@@ -5337,7 +5375,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -5346,7 +5384,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -5355,16 +5393,17 @@ a = {
               actor: {
                 name: 'Kevin Aleman',
                 url: 'https://github.com/KevLehman'
-              },
-            },
-          ],
-        },
+              }
+            }
+          ]
+        }
       },
       {
         number: 26940,
         title: 'Chore: Bump vm2 to 3.9.11',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/26940',
         createdAt: '2022-09-23T22:44:43Z',
+        mergedAt: '2022-09-23T22:57:35Z',
         timelineItems: {
           totalCount: 6,
           nodes: [
@@ -5375,7 +5414,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'MilestonedEvent',
@@ -5398,7 +5437,7 @@ a = {
               actor: {
                 name: 'Tasso Evangelista',
                 url: 'https://github.com/tassoevan'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -5407,7 +5446,7 @@ a = {
               actor: {
                 name: 'Tasso Evangelista',
                 url: 'https://github.com/tassoevan'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -5416,16 +5455,17 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
-            },
-          ],
-        },
+              }
+            }
+          ]
+        }
       },
       {
         number: 26949,
         title: 'Regression: return home after close chat',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/26949',
         createdAt: '2022-09-26T17:24:53Z',
+        mergedAt: null,
         timelineItems: {
           totalCount: 23,
           nodes: [
@@ -5440,7 +5480,7 @@ a = {
                 __typename: 'Team',
                 name: 'Frontend',
                 url: 'https://github.com/orgs/RocketChat/teams/frontend'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -5449,7 +5489,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -5467,7 +5507,7 @@ a = {
               actor: {
                 name: 'Kevin Aleman',
                 url: 'https://github.com/KevLehman'
-              },
+              }
             },
             {
               __typename: 'UnlabeledEvent',
@@ -5476,7 +5516,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -5485,7 +5525,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'MilestonedEvent',
@@ -5499,13 +5539,13 @@ a = {
               actor: {
                 name: 'Kevin Aleman',
                 url: 'https://github.com/KevLehman'
-              },
+              }
             },
             {
               __typename: 'UnlabeledEvent',
               createdAt: '2022-09-29T07:56:53Z',
               label: { name: 'stat: QA tested' },
-              actor: { name: null, url: 'https://github.com/Harmeet221' },
+              actor: { name: null, url: 'https://github.com/Harmeet221' }
             },
             {
               __typename: 'UnlabeledEvent',
@@ -5514,7 +5554,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -5523,7 +5563,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -5532,7 +5572,7 @@ a = {
               actor: {
                 name: 'Kevin Aleman',
                 url: 'https://github.com/KevLehman'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -5545,7 +5585,7 @@ a = {
                 __typename: 'Team',
                 name: 'chat-engine',
                 url: 'https://github.com/orgs/RocketChat/teams/chat-engine'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -5562,7 +5602,7 @@ a = {
               actor: {
                 name: 'Martin Schoeler',
                 url: 'https://github.com/MartinSchoeler'
-              },
+              }
             },
             {
               __typename: 'ReadyForReviewEvent',
@@ -5570,7 +5610,7 @@ a = {
               actor: {
                 name: 'Martin Schoeler',
                 url: 'https://github.com/MartinSchoeler'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -5583,7 +5623,7 @@ a = {
                 __typename: 'User',
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'UnlabeledEvent',
@@ -5592,7 +5632,7 @@ a = {
               actor: {
                 name: 'Martin Schoeler',
                 url: 'https://github.com/MartinSchoeler'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -5601,7 +5641,7 @@ a = {
               actor: {
                 name: 'Martin Schoeler',
                 url: 'https://github.com/MartinSchoeler'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -5610,7 +5650,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -5638,15 +5678,16 @@ a = {
                 url: 'https://github.com/ggazzo'
               },
               state: 'CHANGES_REQUESTED'
-            },
-          ],
-        },
+            }
+          ]
+        }
       },
       {
         number: 26961,
         title: 'Revert: "[IMPROVE] VideoConference Messages UI (#26548)"',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/26961',
         createdAt: '2022-09-27T17:40:31Z',
+        mergedAt: '2022-09-29T18:34:00Z',
         timelineItems: {
           totalCount: 10,
           nodes: [
@@ -5661,7 +5702,7 @@ a = {
                 __typename: 'Team',
                 name: 'Frontend',
                 url: 'https://github.com/orgs/RocketChat/teams/frontend'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -5674,7 +5715,7 @@ a = {
                 __typename: 'Team',
                 name: 'chat-engine',
                 url: 'https://github.com/orgs/RocketChat/teams/chat-engine'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -5683,7 +5724,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -5692,7 +5733,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'UnlabeledEvent',
@@ -5701,7 +5742,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'MilestonedEvent',
@@ -5724,7 +5765,7 @@ a = {
               actor: {
                 name: 'Douglas Gubert',
                 url: 'https://github.com/d-gubert'
-              },
+              }
             },
             {
               __typename: 'UnlabeledEvent',
@@ -5733,7 +5774,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -5742,16 +5783,17 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
-            },
-          ],
-        },
+              }
+            }
+          ]
+        }
       },
       {
         number: 26962,
         title: 'Regression: Typo on livechat/queue endpoint client call',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/26962',
         createdAt: '2022-09-27T17:45:37Z',
+        mergedAt: '2022-09-29T19:45:26Z',
         timelineItems: {
           totalCount: 9,
           nodes: [
@@ -5766,7 +5808,7 @@ a = {
                 __typename: 'Team',
                 name: 'Frontend',
                 url: 'https://github.com/orgs/RocketChat/teams/frontend'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -5775,7 +5817,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -5784,7 +5826,7 @@ a = {
               actor: {
                 name: 'Kevin Aleman',
                 url: 'https://github.com/KevLehman'
-              },
+              }
             },
             {
               __typename: 'MilestonedEvent',
@@ -5807,7 +5849,7 @@ a = {
               actor: {
                 name: 'Kevin Aleman',
                 url: 'https://github.com/KevLehman'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -5816,7 +5858,7 @@ a = {
               actor: {
                 name: 'Kevin Aleman',
                 url: 'https://github.com/KevLehman'
-              },
+              }
             },
             {
               __typename: 'UnlabeledEvent',
@@ -5825,7 +5867,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -5834,16 +5876,17 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
-            },
-          ],
-        },
+              }
+            }
+          ]
+        }
       },
       {
         number: 26964,
         title: 'Regression: Event handler blocking mention links',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/26964',
         createdAt: '2022-09-27T19:16:14Z',
+        mergedAt: '2022-09-29T22:40:38Z',
         timelineItems: {
           totalCount: 10,
           nodes: [
@@ -5854,7 +5897,7 @@ a = {
               actor: {
                 name: 'Tasso Evangelista',
                 url: 'https://github.com/tassoevan'
-              },
+              }
             },
             {
               __typename: 'MilestonedEvent',
@@ -5872,7 +5915,7 @@ a = {
                 __typename: 'Team',
                 name: 'Frontend',
                 url: 'https://github.com/orgs/RocketChat/teams/frontend'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -5881,7 +5924,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -5917,7 +5960,7 @@ a = {
               actor: {
                 name: 'Yash Rajpal',
                 url: 'https://github.com/yash-rajpal'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -5926,7 +5969,7 @@ a = {
               actor: {
                 name: 'Yash Rajpal',
                 url: 'https://github.com/yash-rajpal'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -5935,16 +5978,17 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
-            },
-          ],
-        },
+              }
+            }
+          ]
+        }
       },
       {
         number: 26969,
         title: 'Regression: Remove symbols from number before storing PBX event',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/26969',
         createdAt: '2022-09-28T16:04:08Z',
+        mergedAt: '2022-09-29T21:33:20Z',
         timelineItems: {
           totalCount: 9,
           nodes: [
@@ -5959,7 +6003,7 @@ a = {
                 __typename: 'Team',
                 name: 'Omnichannel',
                 url: 'https://github.com/orgs/RocketChat/teams/omnichannel'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -5968,7 +6012,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -5977,7 +6021,7 @@ a = {
               actor: {
                 name: 'Kevin Aleman',
                 url: 'https://github.com/KevLehman'
-              },
+              }
             },
             {
               __typename: 'MilestonedEvent',
@@ -5991,7 +6035,7 @@ a = {
               actor: {
                 name: 'Kevin Aleman',
                 url: 'https://github.com/KevLehman'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -6009,7 +6053,7 @@ a = {
               actor: {
                 name: 'Kevin Aleman',
                 url: 'https://github.com/KevLehman'
-              },
+              }
             },
             {
               __typename: 'UnlabeledEvent',
@@ -6018,7 +6062,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -6027,16 +6071,17 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
-            },
-          ],
-        },
+              }
+            }
+          ]
+        }
       },
       {
         number: 26975,
         title: 'Regression: Omnichannel Contact Center empty on no filter search',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/26975',
         createdAt: '2022-09-28T21:06:45Z',
+        mergedAt: '2022-10-04T13:23:50Z',
         timelineItems: {
           totalCount: 15,
           nodes: [
@@ -6047,7 +6092,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'ReadyForReviewEvent',
@@ -6055,7 +6100,7 @@ a = {
               actor: {
                 name: 'Tiago Evangelista Pinto',
                 url: 'https://github.com/tiagoevanp'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -6068,7 +6113,7 @@ a = {
                 __typename: 'Team',
                 name: 'Omnichannel',
                 url: 'https://github.com/orgs/RocketChat/teams/omnichannel'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -6099,7 +6144,7 @@ a = {
                 __typename: 'Team',
                 name: 'chat-engine',
                 url: 'https://github.com/orgs/RocketChat/teams/chat-engine'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -6122,7 +6167,7 @@ a = {
               actor: {
                 name: 'Kevin Aleman',
                 url: 'https://github.com/KevLehman'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -6131,7 +6176,7 @@ a = {
               actor: {
                 name: 'Kevin Aleman',
                 url: 'https://github.com/KevLehman'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -6140,7 +6185,7 @@ a = {
               actor: {
                 name: 'Kevin Aleman',
                 url: 'https://github.com/KevLehman'
-              },
+              }
             },
             {
               __typename: 'UnlabeledEvent',
@@ -6149,7 +6194,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -6158,7 +6203,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -6177,15 +6222,16 @@ a = {
                 url: 'https://github.com/murtaza98'
               },
               state: 'APPROVED'
-            },
-          ],
-        },
+            }
+          ]
+        }
       },
       {
         number: 26976,
         title: 'Regression: Fixed takeInquiry method not displaying error messages on the client',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/26976',
         createdAt: '2022-09-28T21:25:15Z',
+        mergedAt: '2022-10-04T04:54:46Z',
         timelineItems: {
           totalCount: 12,
           nodes: [
@@ -6196,7 +6242,7 @@ a = {
               actor: {
                 name: 'Aleksander Nicacio da Silva',
                 url: 'https://github.com/aleksandernsilva'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -6205,7 +6251,7 @@ a = {
               actor: {
                 name: 'Aleksander Nicacio da Silva',
                 url: 'https://github.com/aleksandernsilva'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -6214,7 +6260,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -6223,7 +6269,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'ReadyForReviewEvent',
@@ -6231,7 +6277,7 @@ a = {
               actor: {
                 name: 'Aleksander Nicacio da Silva',
                 url: 'https://github.com/aleksandernsilva'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -6244,7 +6290,7 @@ a = {
                 __typename: 'Team',
                 name: 'Frontend',
                 url: 'https://github.com/orgs/RocketChat/teams/frontend'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -6264,13 +6310,13 @@ a = {
               __typename: 'LabeledEvent',
               createdAt: '2022-10-03T16:12:41Z',
               label: { name: 'stat: QA tested' },
-              actor: { name: null, url: 'https://github.com/Harmeet221' },
+              actor: { name: null, url: 'https://github.com/Harmeet221' }
             },
             {
               __typename: 'UnlabeledEvent',
               createdAt: '2022-10-03T16:12:50Z',
               label: { name: 'stat: needs QA' },
-              actor: { name: null, url: 'https://github.com/Harmeet221' },
+              actor: { name: null, url: 'https://github.com/Harmeet221' }
             },
             {
               __typename: 'LabeledEvent',
@@ -6279,7 +6325,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -6289,15 +6335,16 @@ a = {
                 url: 'https://github.com/MartinSchoeler'
               },
               state: 'APPROVED'
-            },
-          ],
-        },
+            }
+          ]
+        }
       },
       {
         number: 26983,
         title: 'Regression: Composer not reactive when omnichannel room closed',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/26983',
         createdAt: '2022-09-29T18:51:36Z',
+        mergedAt: '2022-10-03T20:23:20Z',
         timelineItems: {
           totalCount: 10,
           nodes: [
@@ -6317,7 +6364,7 @@ a = {
                 __typename: 'Team',
                 name: 'Frontend',
                 url: 'https://github.com/orgs/RocketChat/teams/frontend'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -6326,7 +6373,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -6335,7 +6382,7 @@ a = {
               actor: {
                 name: 'Douglas Gubert',
                 url: 'https://github.com/d-gubert'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -6352,7 +6399,7 @@ a = {
               actor: {
                 name: 'Martin Schoeler',
                 url: 'https://github.com/MartinSchoeler'
-              },
+              }
             },
             {
               __typename: 'ReadyForReviewEvent',
@@ -6360,7 +6407,7 @@ a = {
               actor: {
                 name: 'Martin Schoeler',
                 url: 'https://github.com/MartinSchoeler'
-              },
+              }
             },
             {
               __typename: 'UnlabeledEvent',
@@ -6369,7 +6416,7 @@ a = {
               actor: {
                 name: 'Martin Schoeler',
                 url: 'https://github.com/MartinSchoeler'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -6378,7 +6425,7 @@ a = {
               actor: {
                 name: 'Martin Schoeler',
                 url: 'https://github.com/MartinSchoeler'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -6387,16 +6434,17 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
-            },
-          ],
-        },
+              }
+            }
+          ]
+        }
       },
       {
         number: 26986,
         title: 'Regression: Remove section and replace icon on administration kebab menu',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/26986',
         createdAt: '2022-09-30T14:21:49Z',
+        mergedAt: '2022-10-04T15:40:29Z',
         timelineItems: {
           totalCount: 14,
           nodes: [
@@ -6411,7 +6459,7 @@ a = {
                 __typename: 'Team',
                 name: 'Omnichannel',
                 url: 'https://github.com/orgs/RocketChat/teams/omnichannel'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -6424,7 +6472,7 @@ a = {
                 __typename: 'Team',
                 name: 'chat-engine',
                 url: 'https://github.com/orgs/RocketChat/teams/chat-engine'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -6437,7 +6485,7 @@ a = {
                 __typename: 'Team',
                 name: 'Frontend',
                 url: 'https://github.com/orgs/RocketChat/teams/frontend'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -6446,7 +6494,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -6455,7 +6503,7 @@ a = {
               actor: {
                 name: 'Filipe Marins',
                 url: 'https://github.com/filipemarins'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -6464,7 +6512,7 @@ a = {
               actor: {
                 name: 'Filipe Marins',
                 url: 'https://github.com/filipemarins'
-              },
+              }
             },
             {
               __typename: 'MilestonedEvent',
@@ -6511,7 +6559,7 @@ a = {
               actor: {
                 name: 'Filipe Marins',
                 url: 'https://github.com/filipemarins'
-              },
+              }
             },
             {
               __typename: 'UnlabeledEvent',
@@ -6520,7 +6568,7 @@ a = {
               actor: {
                 name: 'Levy Costa',
                 url: 'https://github.com/LevyCosta'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -6529,16 +6577,17 @@ a = {
               actor: {
                 name: 'Levy Costa',
                 url: 'https://github.com/LevyCosta'
-              },
-            },
-          ],
-        },
+              }
+            }
+          ]
+        }
       },
       {
         number: 26987,
         title: '[IMPROVE] Use cached EE Cloud license on startup',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/26987',
         createdAt: '2022-09-30T21:45:37Z',
+        mergedAt: '2022-10-04T13:12:11Z',
         timelineItems: {
           totalCount: 9,
           nodes: [
@@ -6549,7 +6598,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -6558,7 +6607,7 @@ a = {
               actor: {
                 name: 'Diego Sampaio',
                 url: 'https://github.com/sampaiodiego'
-              },
+              }
             },
             {
               __typename: 'UnlabeledEvent',
@@ -6567,7 +6616,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -6576,7 +6625,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'ReadyForReviewEvent',
@@ -6584,7 +6633,7 @@ a = {
               actor: {
                 name: 'Diego Sampaio',
                 url: 'https://github.com/sampaiodiego'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -6597,7 +6646,7 @@ a = {
                 __typename: 'Team',
                 name: 'Frontend',
                 url: 'https://github.com/orgs/RocketChat/teams/frontend'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -6610,7 +6659,7 @@ a = {
                 __typename: 'Team',
                 name: 'chat-engine',
                 url: 'https://github.com/orgs/RocketChat/teams/chat-engine'
-              },
+              }
             },
             {
               __typename: 'MilestonedEvent',
@@ -6625,15 +6674,16 @@ a = {
                 url: 'https://github.com/ggazzo'
               },
               state: 'APPROVED'
-            },
-          ],
-        },
+            }
+          ]
+        }
       },
       {
         number: 26988,
         title: "Regression: Handle `undefined` values on `useReactiveQuery`'s query function",
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/26988',
         createdAt: '2022-09-30T22:45:05Z',
+        mergedAt: '2022-10-04T04:53:12Z',
         timelineItems: {
           totalCount: 5,
           nodes: [
@@ -6649,7 +6699,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'ReadyForReviewEvent',
@@ -6657,7 +6707,7 @@ a = {
               actor: {
                 name: 'Tasso Evangelista',
                 url: 'https://github.com/tassoevan'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -6670,7 +6720,7 @@ a = {
                 __typename: 'Team',
                 name: 'Frontend',
                 url: 'https://github.com/orgs/RocketChat/teams/frontend'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -6680,15 +6730,16 @@ a = {
                 url: 'https://github.com/ggazzo'
               },
               state: 'APPROVED'
-            },
-          ],
-        },
+            }
+          ]
+        }
       },
       {
         number: 26994,
         title: 'Chore: break LDAP manager into smaller pieces to improve unit tests',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/26994',
         createdAt: '2022-10-03T18:04:12Z',
+        mergedAt: '2022-10-05T17:02:21Z',
         timelineItems: {
           totalCount: 10,
           nodes: [
@@ -6703,7 +6754,7 @@ a = {
                 __typename: 'User',
                 name: 'Pierre Lehnen',
                 url: 'https://github.com/pierre-lehnen-rc'
-              },
+              }
             },
             {
               __typename: 'MilestonedEvent',
@@ -6717,7 +6768,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'ReadyForReviewEvent',
@@ -6725,7 +6776,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -6772,15 +6823,16 @@ a = {
                 url: 'https://github.com/pierre-lehnen-rc'
               },
               state: 'COMMENTED'
-            },
-          ],
-        },
+            }
+          ]
+        }
       },
       {
         number: 27002,
         title: 'Regression: Use raw models instead of meteor ones on visitor inactivity processing',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/27002',
         createdAt: '2022-10-04T17:10:37Z',
+        mergedAt: '2022-10-04T21:15:11Z',
         timelineItems: {
           totalCount: 9,
           nodes: [
@@ -6791,7 +6843,7 @@ a = {
               actor: {
                 name: 'Kevin Aleman',
                 url: 'https://github.com/KevLehman'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -6804,7 +6856,7 @@ a = {
                 __typename: 'Team',
                 name: 'Omnichannel',
                 url: 'https://github.com/orgs/RocketChat/teams/omnichannel'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -6813,7 +6865,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'MilestonedEvent',
@@ -6827,7 +6879,7 @@ a = {
               actor: {
                 name: 'Kevin Aleman',
                 url: 'https://github.com/KevLehman'
-              },
+              }
             },
             {
               __typename: 'UnlabeledEvent',
@@ -6836,7 +6888,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -6845,7 +6897,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -6864,15 +6916,16 @@ a = {
                 url: 'https://github.com/cauefcr'
               },
               state: 'APPROVED'
-            },
-          ],
-        },
+            }
+          ]
+        }
       },
       {
         number: 27008,
         title: 'Regression: Double Table Cell Causing extra padding on Current Chats',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/27008',
         createdAt: '2022-10-05T17:34:37Z',
+        mergedAt: '2022-10-07T19:00:44Z',
         timelineItems: {
           totalCount: 9,
           nodes: [
@@ -6887,7 +6940,7 @@ a = {
                 __typename: 'Team',
                 name: 'Frontend',
                 url: 'https://github.com/orgs/RocketChat/teams/frontend'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -6896,7 +6949,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'MilestonedEvent',
@@ -6910,7 +6963,7 @@ a = {
               actor: {
                 name: 'Kevin Aleman',
                 url: 'https://github.com/KevLehman'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -6919,7 +6972,7 @@ a = {
               actor: {
                 name: 'Kevin Aleman',
                 url: 'https://github.com/KevLehman'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -6934,13 +6987,13 @@ a = {
               __typename: 'UnlabeledEvent',
               createdAt: '2022-10-06T10:01:25Z',
               label: { name: 'stat: needs QA' },
-              actor: { name: null, url: 'https://github.com/Harmeet221' },
+              actor: { name: null, url: 'https://github.com/Harmeet221' }
             },
             {
               __typename: 'LabeledEvent',
               createdAt: '2022-10-06T10:01:25Z',
               label: { name: 'stat: QA tested' },
-              actor: { name: null, url: 'https://github.com/Harmeet221' },
+              actor: { name: null, url: 'https://github.com/Harmeet221' }
             },
             {
               __typename: 'LabeledEvent',
@@ -6949,16 +7002,17 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
-            },
-          ],
-        },
+              }
+            }
+          ]
+        }
       },
       {
         number: 27009,
         title: 'Regression: VideoConf Actions Reactivity in SidebarItem',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/27009',
         createdAt: '2022-10-05T19:30:33Z',
+        mergedAt: '2022-10-07T20:31:30Z',
         timelineItems: {
           totalCount: 7,
           nodes: [
@@ -6973,7 +7027,7 @@ a = {
                 __typename: 'Team',
                 name: 'Frontend',
                 url: 'https://github.com/orgs/RocketChat/teams/frontend'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -6982,7 +7036,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -7005,7 +7059,7 @@ a = {
               actor: {
                 name: 'Pierre Lehnen',
                 url: 'https://github.com/pierre-lehnen-rc'
-              },
+              }
             },
             {
               __typename: 'UnlabeledEvent',
@@ -7014,7 +7068,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -7023,16 +7077,17 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
-            },
-          ],
-        },
+              }
+            }
+          ]
+        }
       },
       {
         number: 27023,
         title: 'Regression: Cannot edit messages in some environments.',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/27023',
         createdAt: '2022-10-06T18:35:17Z',
+        mergedAt: '2022-10-07T12:35:28Z',
         timelineItems: {
           totalCount: 9,
           nodes: [
@@ -7043,7 +7098,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -7061,7 +7116,7 @@ a = {
               actor: {
                 name: 'Hugo Costa',
                 url: 'https://github.com/hugocostadev'
-              },
+              }
             },
             {
               __typename: 'UnlabeledEvent',
@@ -7070,7 +7125,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -7079,39 +7134,40 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'UnlabeledEvent',
               createdAt: '2022-10-06T18:41:26Z',
               label: { name: 'stat: QA skipped' },
-              actor: { name: null, url: 'https://github.com/gabriellsh' },
+              actor: { name: null, url: 'https://github.com/gabriellsh' }
             },
             {
               __typename: 'LabeledEvent',
               createdAt: '2022-10-06T18:41:26Z',
               label: { name: 'stat: needs QA' },
-              actor: { name: null, url: 'https://github.com/gabriellsh' },
+              actor: { name: null, url: 'https://github.com/gabriellsh' }
             },
             {
               __typename: 'UnlabeledEvent',
               createdAt: '2022-10-06T18:41:31Z',
               label: { name: 'stat: ready to merge' },
-              actor: { name: null, url: 'https://github.com/gabriellsh' },
+              actor: { name: null, url: 'https://github.com/gabriellsh' }
             },
             {
               __typename: 'MilestonedEvent',
               createdAt: '2022-10-07T11:43:21Z',
               milestoneTitle: '5.2.0'
-            },
-          ],
-        },
+            }
+          ]
+        }
       },
       {
         number: 27042,
         title: 'Chore: Bump fuselage to latest',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/27042',
         createdAt: '2022-10-10T17:32:11Z',
+        mergedAt: '2022-10-10T18:50:53Z',
         timelineItems: {
           totalCount: 8,
           nodes: [
@@ -7123,7 +7179,7 @@ a = {
                 __typename: 'Team',
                 name: 'Frontend',
                 url: 'https://github.com/orgs/RocketChat/teams/frontend'
-              },
+              }
             },
             {
               __typename: 'ReviewRequestedEvent',
@@ -7133,7 +7189,7 @@ a = {
                 __typename: 'Team',
                 name: 'chat-engine',
                 url: 'https://github.com/orgs/RocketChat/teams/chat-engine'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -7142,7 +7198,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'MilestonedEvent',
@@ -7153,7 +7209,7 @@ a = {
               __typename: 'LabeledEvent',
               createdAt: '2022-10-10T18:01:41Z',
               label: { name: 'stat: QA skipped' },
-              actor: { name: null, url: 'https://github.com/gabriellsh' },
+              actor: { name: null, url: 'https://github.com/gabriellsh' }
             },
             {
               __typename: 'UnlabeledEvent',
@@ -7162,7 +7218,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -7171,7 +7227,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -7181,15 +7237,16 @@ a = {
                 url: 'https://github.com/tassoevan'
               },
               state: 'APPROVED'
-            },
-          ],
-        },
+            }
+          ]
+        }
       },
       {
         number: 27059,
         title: 'Chore: Bump Apps-Engine version',
         url: 'https://github.com/RocketChat/Rocket.Chat/pull/27059',
         createdAt: '2022-10-13T15:02:02Z',
+        mergedAt: '2022-10-13T17:18:27Z',
         timelineItems: {
           totalCount: 6,
           nodes: [
@@ -7200,7 +7257,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'MilestonedEvent',
@@ -7214,7 +7271,7 @@ a = {
               actor: {
                 name: 'Douglas Gubert',
                 url: 'https://github.com/d-gubert'
-              },
+              }
             },
             {
               __typename: 'UnlabeledEvent',
@@ -7223,7 +7280,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'LabeledEvent',
@@ -7232,7 +7289,7 @@ a = {
               actor: {
                 name: 'Guilherme Gazzo',
                 url: 'https://github.com/ggazzo'
-              },
+              }
             },
             {
               __typename: 'PullRequestReview',
@@ -7242,10 +7299,10 @@ a = {
                 url: 'https://github.com/tassoevan'
               },
               state: 'APPROVED'
-            },
-          ],
-        },
-      },
-    ],
-  },
+            }
+          ]
+        }
+      }
+    ]
+  }
 };

@@ -26,6 +26,7 @@ export interface PullRequestsNode {
   title: string;
   url: string;
   createdAt: Date;
+  mergedAt?: Date;
   timelineItems: TimelineItems;
 }
 
@@ -37,9 +38,9 @@ export interface TimelineItems {
 export interface TimelineItemsNode {
   __typename: string;
   submittedAt?: Date;
+  createdAt?: Date;
   author?: Actor;
   state?: string;
-  createdAt?: Date;
   actor?: Actor;
   requestedReviewer?: RequestedReviewer;
   label?: Label;
