@@ -13,10 +13,25 @@ export function processPullRequestData(pullRequest: PullRequestsNode) {
     firstReviewAt: null,
     lastApprovedAt: null,
     changesRequestedCount: 0,
+    /**
+     * Measured in days.
+     * If negative, means the PR was reviewed
+     * before there was a request for review
+     */
     timeToReview: Infinity,
+    /**
+     * If there are multiple reviews, the time between the
+     * first and the approval review.
+     * Otherwise, will be the same as time to review
+     */
     timeToApproval: Infinity,
-    timeApprovalToMerge: Infinity,
-  } as any;
+    /**
+     * If PR has been approved, the time it took from approval
+     * to merge. Otherwise, time from created to merged.
+     */
+    timeApprovalToMerge: NaN,
+    timeToComplete: Infinity,
+  };
 
   const timelineItems = pullRequest.timelineItems.nodes;
 
@@ -41,11 +56,19 @@ export function processPullRequestData(pullRequest: PullRequestsNode) {
     pullRequestData.timeToApproval = pullRequestData.timeToReview;
   }
 
-  if (pullRequestData.lastApprovedAt && pullRequestData.mergedAt) {
+  if (pullRequestData.lastApprovedAt) {
     pullRequestData.timeApprovalToMerge = (
+      // Date arithmetics work
+      // @ts-ignore
       pullRequestData.mergedAt - pullRequestData.lastApprovedAt
     ) / 1000 / 60 / 60 / 24;
   }
+
+  pullRequestData.timeToComplete = (
+    // Date arithmetics work
+    // @ts-ignore
+    pullRequestData.mergedAt - pullRequestData.createdAt
+  ) / 1000 / 60 / 60 / 24;
 
   return pullRequestData;
 }

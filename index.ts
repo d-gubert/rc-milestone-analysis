@@ -24,7 +24,9 @@ export async function main() {
   const githubResult: Milestone = require("./log.js");
 
   console.log("Processing data...");
-  githubResult.pullRequests.nodes.map(processPullRequestData).forEach(console.log);
+  const processedPRs = githubResult.pullRequests.nodes.map(processPullRequestData);
+
+  await writeFile("./processed_prs.json", JSON.stringify(processedPRs));
 }
 
 main();
