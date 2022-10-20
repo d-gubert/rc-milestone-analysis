@@ -27,6 +27,7 @@ export interface PullRequestsNode {
   url: string;
   createdAt: Date;
   mergedAt?: Date;
+  closedAt?: Date;
   timelineItems: TimelineItems;
 }
 
