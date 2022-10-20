@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/lodash": "^4.14.186",
     "@types/node": "^18.11.0",
     "@typescript-eslint/eslint-plugin": "^5.40.1",
     "@typescript-eslint/parser": "^5.40.1",
@@ -22,6 +23,8 @@
   },
   "dependencies": {
     "@octokit/plugin-rest-endpoint-methods": "^6.7.0",
-    "octokit": "^2.0.9"
+    "lodash": "^4.17.21",
+    "octokit": "^2.0.9",
+    "statistics.js": "^1.0.0"
   }
 }

@@ -1,7 +1,8 @@
 import { writeFile } from "fs/promises";
 import { inspect } from "util";
 import { Milestone } from './src/@types/Github';
-import { processPullRequestData } from "./src/lib/processPullRequestData";
+import { processMilestoneData } from './src/lib/processing/processMilestoneData';
+import { processPullRequestData } from "./src/lib/processing/processPullRequestData";
 import { pullsInMilestone } from "./src/queries/pullsInMilestone";
 
 export async function main() {
@@ -23,10 +24,12 @@ export async function main() {
   // eslint-disable-next-line
   const githubResult: Milestone = require("./log.js");
 
-  console.log("Processing data...");
-  const processedPRs = githubResult.pullRequests.nodes.map(processPullRequestData);
+  // console.log("Processing pull requests...");
+  // const processedPRs = githubResult.pullRequests.nodes.map(processPullRequestData);
 
-  await writeFile("./processed_prs.json", JSON.stringify(processedPRs));
+  // await writeFile("./processed_prs.json", JSON.stringify(processedPRs));
+
+  const processedMilestone = processMilestoneData(githubResult);
 }
 
 main();

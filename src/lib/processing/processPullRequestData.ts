@@ -1,6 +1,6 @@
-import { PullRequestsNode, TimelineItemsNode } from "../@types/Github";
+import { PullRequestsNode, TimelineItemsNode } from "../../@types/Github";
 
-export interface PullRequestData {
+export interface ProcessedPullRequest {
   number: number;
   title: string;
   url: string;
@@ -49,7 +49,7 @@ export interface PullRequestData {
   timeToComplete: number;
 }
 
-export function processPullRequestData(pullRequest: PullRequestsNode) {
+export function processPullRequestData(pullRequest: PullRequestsNode): ProcessedPullRequest {
   const pullRequestData = {
     number: pullRequest.number,
     title: pullRequest.title,
@@ -102,7 +102,7 @@ export function processPullRequestData(pullRequest: PullRequestsNode) {
   return pullRequestData;
 }
 
-function calculateTimeToEvents(pullRequestData: PullRequestData) {
+function calculateTimeToEvents(pullRequestData: ProcessedPullRequest) {
   // Let's agree to modify the parameter this time
   /* eslint-disable no-param-reassign */
 
