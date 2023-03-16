@@ -1,4 +1,4 @@
-import { PullRequestsNode, TimelineItemsNode } from "../../@types/Github";
+import { PullRequestsNode, TimelineItemsNode } from "../@types/Github";
 
 export interface ProcessedPullRequest {
   number: number;
@@ -50,7 +50,7 @@ export interface ProcessedPullRequest {
 }
 
 export function processPullRequestData(pullRequest: PullRequestsNode): ProcessedPullRequest {
-  const pullRequestData = {
+  const pullRequestData: ProcessedPullRequest = {
     number: pullRequest.number,
     title: pullRequest.title,
     url: pullRequest.url,

@@ -1,8 +1,9 @@
 import { writeFile } from "fs/promises";
 import { inspect } from "util";
-import { Milestone } from './src/@types/Github';
-import { processMilestoneData } from './src/lib/processing/processMilestoneData';
-import { processPullRequestData } from "./src/lib/processing/processPullRequestData";
+import { Milestone } from "./src/@types/Github";
+import { processMilestoneData } from "./src/processing/processMilestoneData";
+import { processMilestoneTimeline } from "./src/processing/processMilestoneTimeline";
+import { processPullRequestData } from "./src/processing/processPullRequestData";
 import { pullsInMilestone } from "./src/queries/pullsInMilestone";
 
 export async function main() {
@@ -30,6 +31,9 @@ export async function main() {
   // await writeFile("./processed_prs.json", JSON.stringify(processedPRs));
 
   const processedMilestone = processMilestoneData(githubResult);
+  const events = processMilestoneTimeline(processedMilestone);
+
+  await writeFile("./events.json", JSON.stringify(events));
 }
 
 main();
