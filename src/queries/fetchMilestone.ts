@@ -1,7 +1,7 @@
 import { Milestone, ResponseData } from "../@types/Github";
 import { getOctokitClient } from "../lib/octoClient";
 
-export async function pullsInMilestone(milestoneNumber: number): Promise<Milestone | null> {
+export async function fetchMilestone(milestoneNumber: number): Promise<Milestone | null> {
   const octo = getOctokitClient();
 
   return octo.graphql<ResponseData>(
