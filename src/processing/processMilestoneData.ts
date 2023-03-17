@@ -16,6 +16,8 @@ export interface ProcessedMilestone {
   meanTimeToApproval: number;
   meanTimeToReview: number;
   meanTimeApprovalToMerge: number;
+  totalChangeRequests: number;
+  averageChangeRequestPerPR: number;
   regressionCount: number;
   pullRequests: Array<ProcessedPullRequest>;
 }
@@ -33,6 +35,8 @@ export function processMilestoneData(milestone: Milestone): ProcessedMilestone {
     meanTimeToApproval: Infinity,
     meanTimeToReview: Infinity,
     meanTimeApprovalToMerge: Infinity,
+    totalChangeRequests: Infinity,
+    averageChangeRequestPerPR: Infinity,
     regressionCount: 0,
     pullRequests: [],
   };
@@ -67,6 +71,16 @@ export function processMilestoneData(milestone: Milestone): ProcessedMilestone {
   processedMilestone.regressionCount = processedPullRequests.filter(
     (pr) => pr.title.toLowerCase().includes("regression"),
   ).length;
+
+  processedMilestone.averageChangeRequestPerPR = Statistics.winsorisedMean(
+    pickFinite(processedPullRequests, "changesRequestedCount"),
+    0.1,
+  );
+
+  processedMilestone.totalChangeRequests = processedPullRequests.reduce(
+    (acc, pr) => acc + pr.changesRequestedCount,
+    0,
+  );
 
   processedMilestone.pullRequests = processedPullRequests;
 

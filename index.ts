@@ -5,7 +5,7 @@ import { processMilestoneData } from "./src/processing/processMilestoneData";
 import { fetchMilestone } from "./src/queries/fetchMilestone";
 
 // This is a read-only token for the public repo
-process.env.GITHUB_TOKEN = process.env.GITHUB_TOKEN || "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";
+process.env.GITHUB_TOKEN = process.env.GITHUB_TOKEN || "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";
 
 export async function main(milestoneId: number) {
   const token = process.env.GITHUB_TOKEN;

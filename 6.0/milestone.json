@@ -10,6 +10,8 @@
   "meanTimeToApproval": 7.986102146877269,
   "meanTimeToReview": 1.384856572258533,
   "meanTimeApprovalToMerge": 0.7663030281557068,
+  "totalChangeRequests": 95,
+  "averageChangeRequestPerPR": 0.26291079812206575,
   "regressionCount": 90,
   "pullRequests": [
     {

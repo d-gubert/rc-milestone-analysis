@@ -15,7 +15,7 @@ export async function fetchMilestone(milestoneNumber: number): Promise<Milestone
             closedAt
             dueOn
             url
-            pullRequests(first: 100) {
+            pullRequests(last: 106) {
               totalCount
               nodes {
                 number
